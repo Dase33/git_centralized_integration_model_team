@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Calculator {
 	public class Calculator {
     public static double performOperation(double num1, double num2, char operator) {
@@ -25,5 +27,9 @@ public class Calculator {
         }
 
         return result;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
